@@ -1,0 +1,153 @@
+@media ( max-width: 1080px ){
+    .countries{
+        .content{
+            .ukraine, .germany, .gb, .luxemburg, .estonia{
+                img{
+                    margin-right: 2px;	
+                    margin-top: 3px;		
+                }
+                .country_text{
+                    font-size: 12px;	
+                    span{
+                        font-size: 15px;
+                    }		
+                }
+            }
+        }
+    }
+    header{
+        .phones{
+            right: 0;
+        }
+    }
+}
+
+@media ( max-width: 992px ){
+    header{
+        .phones{
+            display: none;
+        }
+        .header__text{
+            text-align: center;
+            .main_text{
+                margin-bottom: 40px;
+            }
+            .sec_text{
+                font-size: 27px;
+            }
+        }
+    }
+    .button{
+        margin: 0 auto;
+        display: block;
+        margin-top: 180px;
+    }
+    .carousel{
+        display: none;
+    }
+    .countries{
+        .content{
+            .ukraine, .germany, .gb, .luxemburg, .estonia{
+                img{
+                    margin-right: 2px;	
+                    margin-top: 3px;		
+                }
+                .country_text{
+                    font-size: 11px;	
+                    span{
+                        font-size: 14px;
+                    }		
+                }
+            }
+        }
+    }
+}
+
+@media ( max-width: 767px ){
+    .countries{
+        .content{
+            .ukraine, .germany, .gb, .luxemburg, .estonia{
+                img{
+                    margin-right: 2px;	
+                    margin-top: 3px;		
+                    display: none;
+                }
+                .country_text{
+                    font-size: 10px;
+                    text-align: center;	
+                    span{
+                        font-size: 13px;
+                    }		
+                }
+            }
+        }
+    }
+    header{
+        .logo{
+            width: 20%;
+        }
+        .menu{
+            width: 65%;
+            li{
+                a{
+                    font-size: 11px;
+                }
+            }
+        }
+        .header__text{
+            text-align: center;
+            .main_text{
+                margin-bottom: 40px;
+                font-size: 38px;
+            }
+            .sec_text{
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media ( max-width: 575px ){
+    .countries{
+        .content{
+            .ukraine, .germany, .gb, .luxemburg, .estonia{
+                .country_text{
+                    font-size: 7px;
+                    text-align: center;	
+                    span{
+                        font-size: 11px;
+                    }		
+                }
+            }
+        }
+    }
+    header{
+        .logo{
+            width: 20%;
+        }
+        .menu{
+            width: 77%;
+            li{
+                a{
+                    font-size: 8px;
+                }
+            }
+        }
+        .header__text{
+            text-align: center;
+            .main_text{
+                margin-bottom: 40px;
+                font-size: 23px;
+            }
+            .sec_text{
+                font-size: 17px;
+            }
+        }
+    }
+    .button{
+        margin-top: 140px;
+        font-size: 15px;
+        width: 220px;
+        height: 50px;
+    }
+}
