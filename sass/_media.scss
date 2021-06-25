@@ -1,3 +1,26 @@
+@media ( max-width: 2000px ){
+	.variants{
+		.server{
+			background: url(../img/server.jpg) center (center/cover) no-repeat;	
+		}
+		.cloud{
+			background: url(../img/cloud.jpg) center (center/cover) no-repeat;
+		}
+	}
+}
+
+@media ( max-width: 1410px ){
+	.variants{
+		.server{
+			background: url(../img/server.jpg) center (center/contain) no-repeat;	
+		}
+		.cloud{
+			background: url(../img/cloud.jpg) center (center/contain) no-repeat;
+		}
+	}
+}
+
+
 @media ( max-width: 1200px ){
 	.descision{
 		.descision_carousel{
@@ -116,6 +139,24 @@
 				}
 		}
 		
+	}
+
+	.variants{
+		.variants_title{
+			font-size: 20px;
+			line-height: 28px;
+			margin-top: 0;
+			top: 24%;
+			z-index: 1;			
+		}
+		.title{
+			margin-bottom: 4px;
+			font-size: 20px;
+		}
+		.descr{
+			font-size: 12px;
+			line-height: 20px;
+		}
 	}
 }
 
@@ -252,6 +293,18 @@
 			font-size: 18px;
 		}
 	}
+	.variants{
+		.cloud_text{
+			margin-right: 0px;
+			margin-left: 35px;
+		}
+		.server_text{
+			margin-left: 23px;
+		}
+		.descr{
+			display: none;
+		}
+	}
 }
 
 @media ( max-width: 575px ){
@@ -351,7 +404,7 @@
 			height: 230px;
 			font-size: 10.5px;
 			line-height: 16px;
-		}
+		} 
 
 	}	
 }
